@@ -10,7 +10,7 @@ public class Worker {
 
     public void start() {
         for (int i = 0; i < 100; i++) {
-            if(i == 34) {
+            if (i == 33) {
                 errorCalback.onError("Task " + i + " is error");
                 continue;
             }
